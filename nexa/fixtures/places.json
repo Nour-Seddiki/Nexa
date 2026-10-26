@@ -1,0 +1,89 @@
+{
+  "restaurants": [
+    {"id": "r-par-01", "name": "Le Petit Cardan", "city": "Paris", "cuisine": "french",
+     "price_level": 3, "rating": 4.6, "address": "12 rue Oberkampf, 75011",
+     "open_days": [1, 2, 3, 4, 5], "slots": ["12:00", "12:30", "13:00", "19:00", "19:30", "20:00", "20:30", "21:00"],
+     "party_max": 8, "deposit_per_person": 0.0,
+     "note": "Set menu only in the evening. Kitchen closes at 22:00."},
+
+    {"id": "r-par-02", "name": "Komorebi", "city": "Paris", "cuisine": "japanese",
+     "price_level": 4, "rating": 4.8, "address": "3 rue de Nil, 75002",
+     "open_days": [2, 3, 4, 5], "slots": ["19:00", "19:30", "21:15", "21:45"],
+     "party_max": 4, "deposit_per_person": 30.0,
+     "note": "Counter seating, 14 seats. Deposit per person, deducted from the bill."},
+
+    {"id": "r-par-03", "name": "Trattoria Nono", "city": "Paris", "cuisine": "italian",
+     "price_level": 2, "rating": 4.3, "address": "88 rue du Faubourg Saint-Denis, 75010",
+     "open_days": [0, 1, 2, 3, 4, 5, 6], "slots": ["12:00", "12:30", "13:00", "13:30", "18:30", "19:00", "19:30", "20:00", "20:30", "21:00", "21:30"],
+     "party_max": 12, "deposit_per_person": 0.0,
+     "note": "Walk-ins welcome for parties under 4. Vegan menu on request."},
+
+    {"id": "r-par-04", "name": "Chez Amine", "city": "Paris", "cuisine": "moroccan",
+     "price_level": 2, "rating": 4.5, "address": "21 rue Jean-Pierre Timbaud, 75011",
+     "open_days": [1, 2, 3, 4, 5, 6], "slots": ["12:30", "13:00", "19:30", "20:00", "20:30", "21:00"],
+     "party_max": 10, "deposit_per_person": 0.0,
+     "note": "Halal kitchen. Couscous on Friday only."},
+
+    {"id": "r-par-05", "name": "Green Atelier", "city": "Paris", "cuisine": "vegetarian",
+     "price_level": 2, "rating": 4.4, "address": "5 rue de Belleville, 75019",
+     "open_days": [0, 1, 2, 3, 4], "slots": ["12:00", "12:30", "13:00", "19:00", "19:30", "20:00"],
+     "party_max": 6, "deposit_per_person": 0.0,
+     "note": "Entirely plant based. Gluten-free options marked on the menu."},
+
+    {"id": "r-lyo-01", "name": "Bouchon Saint-Jean", "city": "Lyon", "cuisine": "french",
+     "price_level": 2, "rating": 4.5, "address": "14 rue Saint-Jean, 69005",
+     "open_days": [1, 2, 3, 4, 5], "slots": ["12:00", "12:30", "19:30", "20:00", "20:30", "21:00"],
+     "party_max": 10, "deposit_per_person": 0.0,
+     "note": "Traditional bouchon. Cash and card."},
+
+    {"id": "r-bcn-01", "name": "Marisco del Born", "city": "Barcelona", "cuisine": "seafood",
+     "price_level": 3, "rating": 4.7, "address": "Carrer de la Princesa 22, 08003",
+     "open_days": [2, 3, 4, 5, 6], "slots": ["13:30", "14:00", "20:30", "21:00", "21:30", "22:00"],
+     "party_max": 8, "deposit_per_person": 15.0,
+     "note": "Seafood changes daily. Deposit per person for parties of 4 or more."},
+
+    {"id": "r-ams-01", "name": "De Kade", "city": "Amsterdam", "cuisine": "modern european",
+     "price_level": 3, "rating": 4.4, "address": "Prinsengracht 310, 1016",
+     "open_days": [1, 2, 3, 4, 5, 6], "slots": ["18:00", "18:30", "20:30", "21:00"],
+     "party_max": 6, "deposit_per_person": 0.0,
+     "note": "Canal-side terrace, weather permitting."}
+  ],
+
+  "hotels": [
+    {"id": "h-par-01", "name": "Hotel Marais Nine", "city": "Paris", "stars": 3, "rating": 4.3,
+     "address": "9 rue de Turenne, 75004", "nightly": 139.0, "weekend_surcharge": 25.0,
+     "breakfast": 14.0, "refundable_until_days": 2,
+     "rooms": {"single": 1.0, "double": 1.15, "suite": 1.9},
+     "note": "Small rooms, central. Lift to the fourth floor only."},
+
+    {"id": "h-par-02", "name": "Canal Loft", "city": "Paris", "stars": 4, "rating": 4.6,
+     "address": "44 quai de Valmy, 75010", "nightly": 219.0, "weekend_surcharge": 40.0,
+     "breakfast": 22.0, "refundable_until_days": 3,
+     "rooms": {"single": 1.0, "double": 1.2, "suite": 2.1},
+     "note": "Quiet courtyard rooms on request. Gym on site."},
+
+    {"id": "h-par-03", "name": "Gare Est Budget", "city": "Paris", "stars": 2, "rating": 3.8,
+     "address": "7 rue d'Alsace, 75010", "nightly": 79.0, "weekend_surcharge": 10.0,
+     "breakfast": 9.0, "refundable_until_days": 1,
+     "rooms": {"single": 1.0, "double": 1.1},
+     "note": "Basic and clean. Street noise on the lower floors."},
+
+    {"id": "h-bcn-01", "name": "Gotic Patio", "city": "Barcelona", "stars": 3, "rating": 4.5,
+     "address": "Carrer dels Banys Nous 11, 08002", "nightly": 124.0, "weekend_surcharge": 30.0,
+     "breakfast": 12.0, "refundable_until_days": 2,
+     "rooms": {"single": 1.0, "double": 1.15, "suite": 1.8},
+     "note": "Rooftop terrace. No air conditioning in the patio rooms."},
+
+    {"id": "h-ams-01", "name": "Jordaan Canal House", "city": "Amsterdam", "stars": 4, "rating": 4.7,
+     "address": "Egelantiersgracht 60, 1015", "nightly": 198.0, "weekend_surcharge": 45.0,
+     "breakfast": 19.0, "refundable_until_days": 3,
+     "rooms": {"single": 1.0, "double": 1.2, "suite": 2.0},
+     "note": "Steep Dutch stairs, no lift. Bicycles included."},
+
+    {"id": "h-lyo-01", "name": "Presqu'ile Suites", "city": "Lyon", "stars": 4, "rating": 4.4,
+     "address": "2 rue Gasparin, 69002", "nightly": 156.0, "weekend_surcharge": 20.0,
+     "breakfast": 16.0, "refundable_until_days": 2,
+     "rooms": {"single": 1.0, "double": 1.15, "suite": 1.85},
+     "note": "Between the two rivers, ten minutes from Part-Dieu by metro."}
+  ]
+}

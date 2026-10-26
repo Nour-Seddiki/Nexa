@@ -1,0 +1,7 @@
+# Nexa needs nothing from PyPI: the core, the CLI and the tests are stdlib only.
+#
+# What it does need:
+#   Python 3.11+
+#   Ollama with a tool-calling model:  ollama pull qwen3.5:9b
+#
+# Check both with:  python -m nexa doctor

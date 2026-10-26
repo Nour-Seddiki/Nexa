@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+*.tmp
+
+# the person's own cart, orders, bookings and spend ledger
+data/

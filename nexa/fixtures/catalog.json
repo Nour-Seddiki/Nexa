@@ -1,0 +1,111 @@
+{
+  "products": [
+    {"id": "p-run-01", "name": "Velo Stride 7", "brand": "Velo", "category": "running shoes",
+     "price": 89.90, "rating": 4.4, "reviews": 812, "stock": 24, "ship_days": 2,
+     "variants": {"size": ["38", "39", "40", "41", "42", "43", "44", "45"], "color": ["black", "cobalt"]},
+     "description": "Neutral daily trainer, 8 mm drop, 262 g. Foam midsole that stays lively for about 600 km.",
+     "review_quotes": ["Light enough for tempo days, soft enough for easy miles.", "Runs half a size small."]},
+
+    {"id": "p-run-02", "name": "Trailhead GTX", "brand": "Kestrel", "category": "running shoes",
+     "price": 139.00, "rating": 4.6, "reviews": 430, "stock": 9, "ship_days": 3,
+     "variants": {"size": ["40", "41", "42", "43", "44", "45"], "color": ["moss", "slate"]},
+     "description": "Waterproof trail shoe, 4 mm lugs, rock plate. Heavier at 318 g but holds a muddy line.",
+     "review_quotes": ["Dry feet through three winter months.", "Too warm for summer road use."]},
+
+    {"id": "p-run-03", "name": "Pace Lite 3", "brand": "Velo", "category": "running shoes",
+     "price": 64.50, "rating": 4.0, "reviews": 1290, "stock": 61, "ship_days": 1,
+     "variants": {"size": ["38", "39", "40", "41", "42", "43", "44"], "color": ["white", "red"]},
+     "description": "Budget trainer, 221 g, firm ride. A sensible first pair or gym shoe.",
+     "review_quotes": ["Great value, outsole wears fast on tarmac.", "Narrow toe box."]},
+
+    {"id": "p-aud-01", "name": "Quiet Q30", "brand": "Northaudio", "category": "headphones",
+     "price": 199.00, "rating": 4.5, "reviews": 3104, "stock": 15, "ship_days": 2,
+     "variants": {"color": ["black", "sand"]},
+     "description": "Over-ear active noise cancelling, 38 h battery, USB-C, multipoint to two devices.",
+     "review_quotes": ["Cabin noise on a plane basically disappears.", "The case is bulky for a backpack."]},
+
+    {"id": "p-aud-02", "name": "Buds Air 2", "brand": "Northaudio", "category": "headphones",
+     "price": 79.00, "rating": 4.1, "reviews": 2210, "stock": 47, "ship_days": 1,
+     "variants": {"color": ["white", "graphite"]},
+     "description": "In-ear, 6 h per charge, 24 h with the case, IPX4 sweat resistant.",
+     "review_quotes": ["Fine for calls and the gym.", "Noise cancelling is mild."]},
+
+    {"id": "p-aud-03", "name": "Studio One", "brand": "Marlow", "category": "headphones",
+     "price": 349.00, "rating": 4.8, "reviews": 640, "stock": 4, "ship_days": 4,
+     "variants": {"color": ["black"]},
+     "description": "Open-back wired reference headphone, 250 ohm. Needs a headphone amplifier.",
+     "review_quotes": ["The most honest pair I have owned.", "No isolation at all, strictly home use."]},
+
+    {"id": "p-lap-01", "name": "Nimbus 14 Air", "brand": "Nimbus", "category": "laptop",
+     "price": 899.00, "rating": 4.3, "reviews": 512, "stock": 6, "ship_days": 3,
+     "variants": {"ram": ["16GB", "32GB"], "storage": ["512GB", "1TB"]},
+     "description": "14-inch 2.8K screen, 16-core ARM chip, 1.2 kg, 18 h battery. No discrete GPU.",
+     "review_quotes": ["Silent and cool, you never hear the fan.", "Only two USB-C ports."]},
+
+    {"id": "p-lap-02", "name": "Forge 16 Pro", "brand": "Nimbus", "category": "laptop",
+     "price": 1649.00, "rating": 4.2, "reviews": 188, "stock": 3, "ship_days": 5,
+     "variants": {"ram": ["32GB", "64GB"], "storage": ["1TB", "2TB"]},
+     "description": "16-inch workstation, 12 GB VRAM GPU, 2.4 kg. Loud under sustained load.",
+     "review_quotes": ["Trains small models fine.", "Battery life halves the moment the GPU wakes up."]},
+
+    {"id": "p-kit-01", "name": "Barista Pro Grinder", "brand": "Cafira", "category": "kitchen",
+     "price": 149.00, "rating": 4.7, "reviews": 980, "stock": 18, "ship_days": 2,
+     "variants": {"color": ["steel", "matte black"]},
+     "description": "Conical burr grinder, 40 settings, espresso through french press.",
+     "review_quotes": ["The espresso range is real, not marketing.", "Static makes a mess on dry days."]},
+
+    {"id": "p-kit-02", "name": "Moka 6-cup", "brand": "Cafira", "category": "kitchen",
+     "price": 34.90, "rating": 4.5, "reviews": 2410, "stock": 80, "ship_days": 1,
+     "variants": {"color": ["silver"]},
+     "description": "Aluminium stovetop espresso maker. Not induction compatible.",
+     "review_quotes": ["Does exactly one thing, and does it well.", "The handle gets hot, use a cloth."]},
+
+    {"id": "p-kit-03", "name": "Chef Knife 20cm", "brand": "Hollow Forge", "category": "kitchen",
+     "price": 119.00, "rating": 4.8, "reviews": 356, "stock": 12, "ship_days": 3,
+     "variants": {"handle": ["walnut", "composite"]},
+     "description": "Hand-forged carbon steel gyuto. Takes a patina with use, hand wash only.",
+     "review_quotes": ["Holds an edge for months.", "Rusts if you leave it wet, as expected."]},
+
+    {"id": "p-bag-01", "name": "Transit 28L", "brand": "Kestrel", "category": "bags",
+     "price": 129.00, "rating": 4.6, "reviews": 744, "stock": 21, "ship_days": 2,
+     "variants": {"color": ["black", "olive", "navy"]},
+     "description": "Carry-on backpack, 28 L, laptop sleeve to 16 inch, fits European cabin rules.",
+     "review_quotes": ["Two weeks of travel with no check-in bag.", "Water bottle pocket is tight."]},
+
+    {"id": "p-bag-02", "name": "Day Sling 4L", "brand": "Kestrel", "category": "bags",
+     "price": 45.00, "rating": 4.2, "reviews": 1102, "stock": 55, "ship_days": 1,
+     "variants": {"color": ["black", "olive"]},
+     "description": "Crossbody sling for phone, passport and a charger. YKK zips.",
+     "review_quotes": ["Perfect airport sling.", "Strap slips on smooth jackets."]},
+
+    {"id": "p-hom-01", "name": "Lumen Desk Lamp", "brand": "Lumen", "category": "home",
+     "price": 72.00, "rating": 4.4, "reviews": 489, "stock": 33, "ship_days": 2,
+     "variants": {"color": ["white", "black"]},
+     "description": "LED desk lamp, 2700-6000 K, 95 CRI, USB-C passthrough.",
+     "review_quotes": ["Colour accuracy is genuinely good.", "Touch controls are fiddly."]},
+
+    {"id": "p-hom-02", "name": "Monitor Riser Oak", "brand": "Lumen", "category": "home",
+     "price": 59.00, "rating": 4.3, "reviews": 212, "stock": 27, "ship_days": 4,
+     "variants": {"wood": ["oak", "walnut"]},
+     "description": "Solid wood riser, 60 x 22 cm, holds 25 kg, cable channel at the back.",
+     "review_quotes": ["Solid, no wobble with two screens.", "Assembly instructions are one picture."]},
+
+    {"id": "p-out-01", "name": "Shelter 2P Tent", "brand": "Kestrel", "category": "outdoor",
+     "price": 249.00, "rating": 4.5, "reviews": 301, "stock": 7, "ship_days": 5,
+     "variants": {"color": ["green", "orange"]},
+     "description": "Two-person three-season tent, 2.1 kg packed, 3000 mm flysheet.",
+     "review_quotes": ["Pitched it in rain on the first try.", "Inner is snug for two people plus gear."]},
+
+    {"id": "p-out-02", "name": "Down Jacket 800", "brand": "Kestrel", "category": "outdoor",
+     "price": 189.00, "rating": 4.7, "reviews": 655, "stock": 14, "ship_days": 3,
+     "variants": {"size": ["S", "M", "L", "XL"], "color": ["black", "rust"]},
+     "description": "800-fill responsible down, 340 g, packs into its own pocket.",
+     "review_quotes": ["Warm well below freezing.", "The shell snags easily, treat it gently."]},
+
+    {"id": "p-fit-01", "name": "Track Watch S2", "brand": "Velo", "category": "wearables",
+     "price": 229.00, "rating": 4.4, "reviews": 1430, "stock": 11, "ship_days": 2,
+     "variants": {"band": ["silicone", "woven"], "size": ["42mm", "46mm"]},
+     "description": "Dual-band GPS, 14-day battery, route maps on the wrist, no mobile data.",
+     "review_quotes": ["GPS track stays clean between tall buildings.", "The phone app is slow to sync."]}
+  ]
+}

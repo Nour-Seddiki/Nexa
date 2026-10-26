@@ -1,0 +1,2 @@
+# Keep line endings deterministic: LF in the repository, whatever the OS checks out.
+* text=auto eol=lf
